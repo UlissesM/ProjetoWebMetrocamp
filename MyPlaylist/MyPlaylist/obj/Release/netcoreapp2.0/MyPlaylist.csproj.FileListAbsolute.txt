@@ -1,0 +1,12 @@
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\bin\Release\netcoreapp2.0\MyPlaylist.deps.json
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\bin\Release\netcoreapp2.0\MyPlaylist.runtimeconfig.json
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\bin\Release\netcoreapp2.0\MyPlaylist.runtimeconfig.dev.json
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\bin\Release\netcoreapp2.0\MyPlaylist.dll
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\bin\Release\netcoreapp2.0\MyPlaylist.pdb
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\obj\Release\netcoreapp2.0\MyPlaylist.csproj.CoreCompileInputs.cache
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\obj\Release\netcoreapp2.0\MyPlaylist.AssemblyInfoInputs.cache
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\obj\Release\netcoreapp2.0\MyPlaylist.AssemblyInfo.cs
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\obj\Release\netcoreapp2.0\MyPlaylist.dll
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\obj\Release\netcoreapp2.0\MyPlaylist.pdb
+C:\Users\Ulisses\Desktop\ProjetoMetrocamp\MyPlaylist\MyPlaylist\obj\Release\netcoreapp2.0\MyPlaylist.csprojAssemblyReference.cache

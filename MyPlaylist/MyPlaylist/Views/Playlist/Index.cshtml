@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MyPlaylist.Models.ManageViewModels.PlaylistModelView>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Suas Playlists.</h2>
+
+<p>
+    <a asp-action="Create">Criar nova playlist</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() > 0)
+        {
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id=item.Id}) |
+                        @Html.ActionLink("Musicas", "TracksPlaylist", new { id = item.Id}) |
+                        @Html.ActionLink("Excluir", "RemovePlaylist", new { id = item.Id})
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td>
+                    Você não possui ainda nenhuma plalyst
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>

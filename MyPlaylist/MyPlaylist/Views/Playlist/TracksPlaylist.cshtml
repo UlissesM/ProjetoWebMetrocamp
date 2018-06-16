@@ -1,0 +1,48 @@
+﻿@model IEnumerable<MyPlaylist.Models.ManageViewModels.TrackModelView>
+
+@{
+    ViewData["Title"] = "TracksPlaylist";
+}
+
+<h2>@Model.FirstOrDefault().PlaylistName</h2>
+
+<p>
+    <a asp-action="CreateTrack" asp-route-id="@Model.FirstOrDefault().PlaylistId">Criar nova Faixa</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Artist)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.UrlTrack)
+                </th>
+                    
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artist)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrlTrack)
+            </td>
+     
+            <td>
+                @Html.ActionLink("Editar", "EditTrack", new {  id=item.Id  }) |
+                @Html.ActionLink("Excluir", "RemoveTrack", new { id=item.Id  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
